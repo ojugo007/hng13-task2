@@ -171,7 +171,7 @@ app.post('/strings', (req, res) => {
                         count++
                     }
                 }
-                map[string[i]] = count
+                map[string[i].toLowerCase()] = count
             }
             return map
         }
@@ -291,7 +291,7 @@ app.get("/strings", (req, res) => {
         return res.status(200).json({
             data : filtered,
             count : filtered.length,
-             filters_applied
+            filters_applied
         })
     })
 
