@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/ojugo007/hng13-task2#readme",
   "dependencies": {
+    "compromise": "^14.14.4",
+    "compromise-numbers": "^1.4.0",
     "crypto-js": "^4.2.0",
     "dotenv": "^17.2.3",
     "express": "^5.1.0"
